@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Factory</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.13.2/ethers.umd.min.js"
+    type="application/javascript"></script>
+        <div class="container">
+        <h1>Wallet Factory</h1>
+        <div id="connect-wallet">
+            <button id="connectButton">Connect Wallet</button>
+        </div>
+        <div id="factory-actions">
+            <button id="createWalletButton">Create Wallet</button>
+            <button id="getWalletAddressButton">Get Wallet Address</button>
+        </div>
+        <div id="wallet-actions">
+            <h2>User Wallet Functions</h2>
+            <button id="depositButton">Deposit Tokens</button>
+            <button id="withdrawButton">Withdraw Tokens</button>
+            <button id="cancelSubscriptionButton">Cancel Subscription</button>
+            <button id="payMonthlyFeeButton">Pay Monthly Fee</button>
+            <button id="getBalanceButton">Get Balance</button>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="constants.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
